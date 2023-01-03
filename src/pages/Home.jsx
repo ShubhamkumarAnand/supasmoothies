@@ -1,4 +1,7 @@
+import supabase from '../config/supabaseConfig'
+
 const Home = () => {
+  console.log(supabase)
   return (
     <div className="page home">
       <h2>Home</h2>
